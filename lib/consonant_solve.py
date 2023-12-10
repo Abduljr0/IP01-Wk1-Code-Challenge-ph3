@@ -26,3 +26,9 @@ def solve(word):
         sub_value = substring_value(sub)
         if sub_value > max_value:
             max_value = sub_value
+    return max_value
+
+
+print(solve("abdul"))  
+print(solve("strength")) 
+print(solve("zodiac"))  
