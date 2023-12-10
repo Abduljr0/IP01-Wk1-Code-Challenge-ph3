@@ -6,4 +6,6 @@ def solve(word):
             value += ord(char) - ord('a') + 1
         return value
 
-   
+    # Remove vowels from the string
+    vowels = 'aeiou'
+    word_without_vowels = ''.join([char for char in word if char not in vowels])
