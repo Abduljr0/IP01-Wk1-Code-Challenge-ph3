@@ -9,7 +9,7 @@ For "pm" times, it adds 12 to the hour unless the hour is already 12 (as 12 pm r
 The function then formats the hour and minute to ensure they each have two digits e.g., '08' instead of '8', and finally combines them to create the four-digit string representing the time in 24-hour format.
 
 
- The two_positive_numbers function takes three integer arguments (a, b, and c) and counts the number of positive integers among them. It returns True if exactly two of the integers are positive and False otherwise.
+ The two_positive_numbers() function takes three integer arguments (a, b, and c) and counts the number of positive integers among them. It returns True if exactly two of the integers are positive and False otherwise.
 
 It counts positive integers by checking each integer using three separate if statements and increments the positive_count variable accordingly.
 Finally, it returns True if the positive_count is equal to 2 (indicating exactly two positive integers) and  returns False otherwise.
